@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primary: #2600ff;
+    --secundary: #f3f4f5;
+    --success: #16a34a;
+    --bg-site:#04070a;
+    --bg-card:#ffffff;
+    --dark-bg:#0f172a;
+    --text-footer: #94a3b8;
+    --card-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    --dark-shadow: 0 10px 30px rgba(15, 23, 42, 0.2);
+    --font-titles: 'Montserrat', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    height: 80px;
+    background-color: var(--primary);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: var(--font-titles)
+}
+.conteiner-image{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.img-fluida{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid var(--primary);
+}
+body{
+    background-color: var(--bg-site);
+    font-family: var(--font-body);
+    color: var(--secundary);
+    line-height: 1.6;
+}
+.main.conteudo{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.conteudo article{
+    background-color: var(--dark-bg);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: var(--dark-shadow);
+}
+.conteudo h2{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+}
+.conteudo p{
+    padding-left: 20px;
+    padding-right: 30px;
+    color:antiquewhite;
+    padding-bottom: 20px;
+}
+.conteudo article h3{
+   color:rgb(35, 148, 86);
+   padding: 15px;
+}
+
+.conteudo article p{
+    color:hsl(0, 0%, 100%);
+    padding-left: 20px;
+    padding-right: 30px;
+    font-family: var(--font-body);
+}
+.conteudo article h3{
+    color: var(--success);
+    padding-left: 0;
+    margin-top: 10px;
+}
+.conteudo article h4{
+    color:hsl(0, 0%, 100%);
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 1rem;
+    font-family: var(--font-body);
+    display: flexbox;
+    text-align: center;
+}
+.rodape{
+    background-color: var(--dark-bg);
+    color: var(--text-footer);
+    text-align: center;
+    padding: 3rem 1rem;
+    margin-top: 50px;
+    border-top: 4px solid var(--primary);
+}
