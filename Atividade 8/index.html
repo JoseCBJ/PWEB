@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <title>Atividade 8</title>
+</head>
+
+<body>
+    <header class="PesquisaOpiniao">
+        <h1>Pesquisa de opinião</h1>
+        <form>
+            <section class="idadesec">
+                <h2>Digite sua idade</h2>
+                <input type="number" id="idade" name="idade" placeholder="99">
+            </section>
+
+            <section class="sexos">
+                <h2>Escolha seu sexo</h2>
+                <input type="radio" id="masc" name="sexo" value="m">
+                <label for="masc">masculino</label>
+
+                <input type="radio" id="fem" name="sexo" value="f">
+                <label for="fem">feminino</label>
+
+                <input type="radio" id="other" name="sexo" value="o">
+                <label for="other">outro</label>
+            </section>
+
+            <section class="notaS">
+                <h2>Escolha sua nota</h2>
+
+                <input type="radio" id="um" name="nota" value="1">
+                <label for="um">1</label>
+
+                <input type="radio" id="dois" name="nota" value="2">
+                <label for="dois">2</label>
+
+                <input type="radio" id="tres" name="nota" value="3">
+                <label for="tres">3</label>
+
+                <input type="radio" id="quatro" name="nota" value="4">
+                <label for="quatro">4</label>
+            </section>
+
+            <button onClick="receberPesquisa(event)">Enviar pesquisa</button>
+        </form>
+
+        <script src="calc.js"></script>
+    </header>
+</body>
+
+</html>
