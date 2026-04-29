@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #e9ecef;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+header.Exercicio {
+    background: white;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    border-left: 5px solid #3498db;
+    transition: transform 0.2s;
+}
+
+section:hover {
+    transform: scale(1.01);
+}
+
+h2 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+input {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+.funcao1 {
+    border-left-color: #3498db;
+}
+
+
+.funcao2 {
+    border-left-color: #2ecc71;
+}
+
+.funcao3 {
+    border-left-color: #9b59b6;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    input {
+        max-width: 100%;
+    }
+}

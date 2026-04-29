@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade 8</title>
+</head>
+
+<body>
+    <header class="Exercicio de funcao">
+        <h1>Exercicio de funcao</h1>
+        <form>
+            <section class="funcao1">
+                <h2>digite 3 valores e descubra o maior</h2>
+                <input type="number" id="num1" name="num1" placeholder="99">
+                <input type="number" id="num2" name="num2" placeholder="99">
+                <input type="number" id="num3" name="num3" placeholder="99">
+
+                <button onClick="verMaiorNumero(event)">Ver numero maior</button>
+            </section>
+
+            <section class="funcao1">
+                <h2>digite 3 valores e veja-os em ordem crescente</h2>
+                <input type="number" id="num4" name="num4" placeholder="99">
+                <input type="number" id="num5" name="num5" placeholder="99">
+                <input type="number" id="num6" name="num6" placeholder="99">
+
+                <button onClick="verOdemCrescente(event)">Ver em ordem crescente</button>
+            </section>
+
+            <section class="funcao2">
+                <h2>Digite uma palavra e veja se ela é palindroma</h2>
+                <input type="text" id="palavPalin" name="palavPalin" placeholder="ana">
+
+                <button onClick="verPalindromo(event)">Sua palavra é palindroma?</button>
+            </section>
+
+            <section class="funcao2">
+                <h2>Digite duas palavras e veja se a primeira é subconjunto da segunda</h2>
+                <input type="text" id="palav1" name="palav1" placeholder="amor">
+                <input type="text" id="palav2" name="palav2" placeholder="amora">
+
+                <button onClick="palavraSubConj(event)">A primeira palavra é subconjunto da segunda?</button>
+            </section>
+
+            <section class="funcao3">
+                <h2>Digite uma data e veja o dia da semana</h2>
+                <input type="date" id="data" name="data">
+
+                <button onClick="verDiaSemana(event)">Ver dia da semana</button>
+            </section>
+        </form>
+
+        <script src="calc.js"></script>
+    </header>
+</body>
+
+</html>
