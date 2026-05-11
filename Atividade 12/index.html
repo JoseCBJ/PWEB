@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+</head>
+
+<body>
+    <script src="funcBanco.js"></script>
+    <script src="funcRetangulo.js"></script>
+    <section class="calcAreaRet">
+        <h1>Calculando area de um retangulo</h1>
+        <h2>Digite a altura:</h2>
+        <input type="text" id="elBase">
+        <h2>Digite a base:</h2>
+        <input type="text" id="elBase">
+        <button onclick="execCalculo()">Calcular area</button>
+        <h3 id="outDados"></h3>
+    </section>
+    <section class="funcaoBanco">
+        <h1>Função get e set em conta de banco</h1>
+        <h2>Digite o seu nome</h2>
+        <input type="text" id="entNome">
+        <h2>Digite o nome do eu banco</h2>
+        <input type="text" id="entBanco">
+        <h2>Digite o seu numero da conta</h2>
+        <input type="text" id="entNumero">
+        <h2>Digite o valor do seu saldo</h2>
+        <input type="text" id="entSaldo">
+        <h2>Digite tipo de conta</h2>
+        <select id="elTipoConta">
+            <option value="corrente">Conta corrente</option>
+            <option value="poupanca">Conta poupança</option>
+        </select>
+        <button onclick="cadastroBanco()">Cadastrar conta</button>
+        <h3 id="outText"></h3>
+    </section>
+</body>
+
+</html>
